@@ -1,5 +1,8 @@
 # ignore node_modules
 node_modules/
 
+# ignore .next
+.next
+
 # ignore .idea
-*.idea
+.idea

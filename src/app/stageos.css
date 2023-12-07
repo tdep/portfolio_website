@@ -170,6 +170,43 @@ h2 {
   font-size: var(--font-size-h2);
   font-size: clamp(2rem, 4vw, var(--font-size-h2));
 }
+
+.about {
+  --color-primary-alt: crimson;
+}
+
+.experience {
+  --color-primary-alt: orange;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.job {
+  border-radius: 1em;
+  padding: 0 0.5em;
+  text-align: left;
+}
+
+.job:hover {
+  background-color: rgba(100 200 237 / 50%);
+  font-style: italic;
+  cursor: pointer;
+}
+
+.experience-description {
+  float:right;
+}
+
+.portfolio {
+  --color-primary-alt:mediumseagreen ;
+}
+.contact {
+  --color-primary-alt: cornflowerblue;
+}
 .skip-link {
   position: absolute;
   top: auto;

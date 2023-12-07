@@ -1,6 +1,5 @@
 import NavPanel from "@/_includes/nav";
 import Footer from "@/_includes/footer";
-import Link from "next/link";
 import Image from "next/image";
 import duck from '../../_resources/duck.jpg'
 

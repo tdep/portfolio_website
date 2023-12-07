@@ -5,6 +5,7 @@ import Experience from "@/app/home/components/experience";
 import Portfolio from "@/app/home/components/portfolio";
 import Contact from "@/app/home/components/contact";
 import Footer from "@/_includes/footer";
+import Portrait from "@/_includes/portrait";
 
 
 export const metadata: Metadata = {
@@ -28,14 +29,7 @@ export default function Home() {
             <Contact></Contact>
           </div>
         </main>
-        <aside className={"profile"} aria-labelledby={"profile-title"}>
-          <div className={"container"}>
-            <h4 id={"profile-title"}>Something</h4>
-            <ul>
-              <li className={"something"}>Something goes here</li>
-            </ul>
-          </div>
-        </aside>
+        <Portrait></Portrait>
         <Footer></Footer>
       </>
 )

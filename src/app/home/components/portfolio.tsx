@@ -1,6 +1,6 @@
 export default function Portfolio() {
   return (
-      <article id={"portfolio"}>
+      <article id={"portfolio"} className={"portfolio"}>
         <section className={"container"}>
           <h2>Portfolio</h2>
           <p>This is where I will show screen captures of my work with links to other pages that will be functional demos</p>
