@@ -20,13 +20,12 @@ export default function Home() {
             <h1>Portfolio</h1>
           </div>
         </header>
-        <NavPanel></NavPanel>
         <main id={"main"} tabIndex={-1}>
           <div className={"container"}>
-            <About></About>
-            <Experience></Experience>
-            <Portfolio></Portfolio>
-            <Contact></Contact>
+            <About/>
+            <Experience/>
+            <Portfolio/>
+            <Contact/>
           </div>
         </main>
         <Portrait></Portrait>
