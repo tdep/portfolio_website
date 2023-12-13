@@ -1,1 +1,1 @@
-export const endpoint = 'http://localhost:3000/api/'
+export const devEndpoint = 'http://localhost:3000/api/experience/'

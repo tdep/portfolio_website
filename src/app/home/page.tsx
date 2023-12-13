@@ -1,16 +1,13 @@
-import { Metadata } from 'next'
-import NavPanel from "@/_includes/nav";
+'use client';
 import About from "@/app/home/components/about";
 import Experience from "@/app/home/components/experience";
 import Portfolio from "@/app/home/components/portfolio";
 import Contact from "@/app/home/components/contact";
 import Footer from "@/_includes/footer";
 import Portrait from "@/_includes/portrait";
-
-
-export const metadata: Metadata = {
-  title: 'Trevor DePew',
-}
+//TODO: eventually build admin interface with login to edit the site
+//TODO: migrate JSON to gCloud and refactor to make API calls to a new Java service
+//TODO: deploy new site on personal domain
 export default function Home() {
   return (
       <>
