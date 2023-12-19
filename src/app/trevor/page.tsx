@@ -15,7 +15,7 @@ export default function Duck() {
         <NavPanel></NavPanel>
         <main id={"main"} tabIndex={-1}>
           <div className={"container"}>
-            <h1>Here be a duck.</h1>
+            <h1>Here be a duck.🐤</h1>
             <Image
                 src={duck}
                 width={500}
