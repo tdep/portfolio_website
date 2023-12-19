@@ -1,1 +1,1 @@
-export const devEndpoint = 'http://localhost:3000/api/experience/'
+export const devEndpoint = 'https://tadlab-c9c89c831717.herokuapp.com/api/experience/'
