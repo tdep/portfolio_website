@@ -7,7 +7,6 @@ export type Job = {
   description: string
 }
 
-
 export type JobsResponse = {
   jobs: Job[]
 }
