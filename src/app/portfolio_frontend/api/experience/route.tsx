@@ -1,4 +1,4 @@
-import experience from '@/_data/experience.json'
+import experience from '@/app/portfolio_frontend/_data/experience.json'
 import { NextResponse } from "next/server";
 
 export async function GET() {
