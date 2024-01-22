@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './stageos.css'
 import React from "react";
-import NavPanel from "@/portfolio_frontend/_components/nav";
+import NavPanel from "@/app/(portfolio_frontend)/_components/nav";
 
 const inter = Inter({ subsets: ['latin'] })
 

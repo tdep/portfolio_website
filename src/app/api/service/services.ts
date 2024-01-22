@@ -1,5 +1,5 @@
-import type {JobsResponse} from '@/portfolio_frontend/_types/Job'
-import {devEndpoint, prodEndpoint} from "@/portfolio_frontend/_utils/endpoint";
+import type {JobsResponse} from '@/app/(portfolio_frontend)/_types/Job'
+import {devEndpoint, prodEndpoint} from "@/app/(portfolio_frontend)/_utils/endpoint";
 
 export async function getJobs(): Promise<JobsResponse> {
   const req = await fetch(`${prodEndpoint}/users/1`);

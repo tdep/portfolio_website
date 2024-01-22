@@ -1,7 +1,7 @@
-import NavPanel from "@/portfolio_frontend/_components/nav";
-import Footer from "@/portfolio_frontend/_components/footer";
+import NavPanel from "@/app/(portfolio_frontend)/_components/nav";
+import Footer from "@/app/(portfolio_frontend)/_components/footer";
 import Image from "next/image";
-import duck from '@/portfolio_frontend/_resources/duck.jpg'
+import duck from '@/app/(portfolio_frontend)/_resources/duck.jpg'
 
 export default function Duck() {
   return (
