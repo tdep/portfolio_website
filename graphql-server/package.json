@@ -1,0 +1,23 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "BFF Server for the Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "tdep",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/datasource-rest": "^6.2.2",
+    "@apollo/server": "^4.10.0",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  }
+}
