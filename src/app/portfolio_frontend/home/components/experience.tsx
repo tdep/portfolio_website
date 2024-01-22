@@ -1,6 +1,6 @@
-import {getJobs} from "@/service/services";
+import {getJobs} from "@/app/(api)/service/services";
 import React, {useEffect, useState} from "react";
-import {Job, JobsResponse} from "@/_types/Job";
+import {Job, JobsResponse} from "@/portfolio_frontend/_types/Job";
 
 //TODO: Add short overview of work to replace placeholder text - possibly even putting it into the JSON file
 export default function Experience() {

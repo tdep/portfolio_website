@@ -1,10 +1,10 @@
 'use client';
-import About from "@/app/home/components/about";
-import Experience from "@/app/home/components/experience";
-import Portfolio from "@/app/home/components/portfolio";
-import Contact from "@/app/home/components/contact";
-import Footer from "@/_includes/footer";
-import Portrait from "@/_includes/portrait";
+import About from "@/portfolio_frontend/home/components/about";
+import Experience from "@/portfolio_frontend/home/components/experience";
+import Portfolio from "@/portfolio_frontend/home/components/portfolio";
+import Contact from "@/portfolio_frontend/home/components/contact";
+import Footer from "@/portfolio_frontend/_components/footer";
+import Portrait from "@/portfolio_frontend/_components/portrait";
 //TODO: eventually build admin interface with login to edit the site
 //TODO: migrate JSON to gCloud and refactor to make API calls to a new Java service
 //TODO: deploy new site on personal domain
