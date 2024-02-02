@@ -1,4 +1,4 @@
-// import {getJobs} from "@/app/api/service/services";
+import {getJobs} from "@/app/api/service/services";
 import React, {useEffect, useState} from "react";
 import {Job, JobsResponse} from "@/app/(portfolio_frontend)/_types/Job";
 
@@ -6,13 +6,13 @@ import {Job, JobsResponse} from "@/app/(portfolio_frontend)/_types/Job";
 export default function Experience() {
   const [jobsResponse, setJobsResponse] = useState<JobsResponse>();
   const [activeJob, setActiveJob] = useState("6");
-  // useEffect( () => {
-  //   getJobs().then(
-  //       response => {
-  //         setJobsResponse(response)
-  //       }
-  //   ).catch(e => console.log("----->", e))
-  // }, []);
+  useEffect( () => {
+    getJobs().then(
+        response => {
+          setJobsResponse(response)
+        }
+    ).catch(e => console.log("----->", e))
+  }, []);
 
   type JobsComponentsProps = {
     jobs: Job[]
